@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jove</title>
+  
+  
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2022-01-22T08:53:51.531Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Eve</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2022/01/22/%E6%88%91%E7%9A%84%E5%A4%A7jojo/"/>
+    <id>http://yoursite.com/2022/01/22/%E6%88%91%E7%9A%84%E5%A4%A7jojo/</id>
+    <published>2022-01-22T08:53:03.145Z</published>
+    <updated>2022-01-22T08:53:51.531Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="大jojo"><a href="#大jojo" class="headerlink" title="大jojo??????????"></a>大jojo??????????</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;大jojo&quot;&gt;&lt;a href=&quot;#大jojo&quot; class=&quot;headerlink&quot; title=&quot;大jojo??????????&quot;&gt;&lt;/a&gt;大jojo??????????&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>迷茫</title>
+    <link href="http://yoursite.com/2021/08/19/%E8%BF%B7%E8%8C%AB/"/>
+    <id>http://yoursite.com/2021/08/19/%E8%BF%B7%E8%8C%AB/</id>
+    <published>2021-08-19T15:47:52.000Z</published>
+    <updated>2021-08-19T16:15:35.841Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>所以到底在迷茫什么呢?<br>浑浑噩噩的<br>还有个烦人的大妖精<br>令人又爱又恨</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h1&gt;&lt;p&gt;所以到底在迷茫什么呢?&lt;br&gt;浑浑噩噩的&lt;br&gt;还有个烦人的大妖精&lt;br&gt;令人又爱又恨&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2021/01/31/Latex%E5%85%A5%E9%97%A8/"/>
+    <id>http://yoursite.com/2021/01/31/Latex%E5%85%A5%E9%97%A8/</id>
+    <published>2021-01-31T09:23:21.931Z</published>
+    <updated>2021-02-01T04:59:34.729Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">\<span class="name">documentclass</span><span class="string">[UTF8]</span><span class="string">&#123;ctexart&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">title</span><span class="string">&#123;文章的标题&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">author</span><span class="string">&#123;作者&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">date</span><span class="string">&#123;\today&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">begin</span><span class="string">&#123;document&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">maketitle</span></span></span><br><span class="line">你好！！！</span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">end</span><span class="string">&#123;document&#125;</span></span></span><br></pre></td></tr></table></figure><p><code>\documentclass&#123;article&#125;</code></p><p>这里的documentclass指定了文档的类型，最刚广泛的有<code>article</code>:普通的文章；其他的还有<code>book</code>、<code>report</code>等</p><p>如果希望创建一个幻灯片格式的文档则可以使用<code>beamer</code></p><p>需要在文档中显示中文，则需要使用一个叫做<code>ctexart</code>的文档类型，它支持简体中文和英文的混合排，还要指定文档的编码类型，<code>UTF8</code>是TeXworks编辑器默认使用的编码类型，如果不去正确设置它的话，文档中的中文可能会变成一堆乱码</p><p><code>\documentclass[UTF8]&#123;ctexart&#125;</code></p><p>所有位于<code>\begin&#123;document&#125;</code>之前的内容都被称作是前言（preamble），可以在这里设置文档的格式，页面的尺寸，也可以指定文档中需要导入的宏包等等。</p><p>在<code>\begin&#123;document&#125;</code> 和<code>\end&#123;document&#125;</code>之间的内容称为文档的正文，在这片区域输入的内容将会被排版到最终生成的文档中。</p><p>在前言区块内，可以通过<code>\title&#123;&#125;</code>命令给文档设置一个标题，<code>\author&#123;&#125;</code>命令可以用来指定作者的名字，<code>\date&#123;&#125;</code>命令可以用来指定日期，也可以在此命令中加入<code>\today</code>命令来自动生成当天的日期.</p><p>要显示前言部分的信息还需要在文档的正文区域中加入一个<code>\maketitle</code>命令，这个命令会在当前位置生成文档的标题，即前言区(preamble)设定的信息。</p><p>Latex中最基础的格式化命令</p><p><code>\textbf&#123;&#125;</code>：加粗文字，需要加粗的文字直接写在花括号中，bf是bold font的缩写代表加粗</p><p><code>\textit&#123;&#125;</code>:  斜体文字，it代表italic(斜体)</p><p><code>\underline&#123;&#125;</code>: 下划线</p><p>换行则可以通过两个回车enter,即在正文中空开一行即可。需要注意的是单独的一个换行符只会生成一个空格，并不会开启新的段落。</p><p><code>\section&#123;&#125;</code>: 开启一个新章节</p><p><code>\subsection&#123;&#125;</code>:这是section下的子章节命令，即二级章节</p><p><code>\subsubsection</code>: 三级章节</p><p>如果是书籍排版<code>ctexbook</code>, 可以加入比<code>section</code>更大的<code>chapter</code></p><p><code>\chapter&#123;&#125;</code>: 比secton更大的章节，通常用来表示书籍中的第几章</p><p><code>\part&#123;&#125;</code>: 比chapter还要大的part，通常用来表示书籍中的第几部</p><p>如果需要在文章中添加图片，则需要在preamble区域中引用<code>graphicx</code>这个包(注意最后的字符是x)</p><p><code>\usepackage&#123;graphicx&#125;</code>：引用添加图片的包，这个包里包含若干个绘制图片的命令</p><p><code>\includegraphics&#123;&#125;</code>: 在正文中使用此命令在当前位置添加一张图片,花括号中的是图片的名字，在名字中可以直接省略掉后面png的扩展名部分。</p><p>若发现添加的图片尺寸过大，超出页面等，可以给<code>\includegraphics&#123;&#125;</code>命令添加一个可选的参数。</p><p><code>\includegraphics[width=0.5\textwidth]&#123;head&#125;</code> 这里的<code>\textwidth</code>代表当前文本区域的宽度</p><p>如果想要给图片添加标题，可以将图片嵌套在一个<code>figure</code>环境中,随后我们可以通过<code>\caption&#123;&#125;</code>命令指定图片的标题。同时还能使用<code>\centering</code>命令将图片居中显示。</p><p>列表显示</p><p>需要切换到列表中的environment(环境)是LaTeX的一个专业术语，即<code>\begin&#123;...&#125;...\end&#123;...&#125;</code>，它像是编程语言中的作用域。位于同一个环境中的内容将会共享相同的文字格式。</p><p><code>itemize</code>:无序列表的创建的环境</p><p><code>\item</code>:列表中每个元素都需以此为开头</p><p><code>enumerate</code>: 对于有序列表(也就是前面带编号的列表)的环境</p><p>数学公式</p><p><code>$...$</code>: 行内公式需要写在两个美元符号之间，即文字中插入数学公式无需另起一行</p><p><code>equation</code>: 该环境中可以将公式单独写在一行，且公式行有标号，也可以将环境简写为 <code>\[ ... \]</code>但没有标号。</p><p>其他的与markdown中的类似。</p><p>表格</p><p><code>tabular</code>：在该环境中创建一个表格</p><p>tabular环境要求我们传入一个参数，用来指定表格的尺寸，这里的<code>&#123; c c c&#125;</code>代表表格一共有三列，c(centering):其中每一列都居中对齐，并且可以替换这里的<code>c</code>为<code>l</code>来表示左对齐, <code>r</code>来表示右对齐。</p><p>而下面这个区域中定义了表格中需要显示的内容，其中每列的数据需要以<code>&amp;</code>符号隔开，表格每一行数据需要以<code>\\</code>分割。</p><p>也可以在<code>&#123; c c c&#125;</code> 中添加<code>|</code>变为 <code>&#123; |c|c|c| &#125;</code>，表示这里加入竖线为表格添加竖直的边框，水平方向的边框则需要痛过<code>\hline</code>来表示，甚至可以输入两次<code>\hline</code>即<code>\hline\hline</code>来添加双横线的效果。</p><p>如果需要单独指定每一列的宽度可以将c改成p，并在后面的花括号里输入列宽，<code>&#123; | p&#123;2cm&#125; |c|c| &#125;</code>，这里的p代表paragraph是一种允许设置列宽的列格式。</p><p>和图表类似，给表格添加标题，可以先将整个表格放在<code>table</code>环境中,随后可以通过<code>\caption&#123;&#125;</code>命令指定表格的标题，并通过<code>\center</code>命令将表格居中显示。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight latex&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2020/08/29/hello-world/"/>
+    <id>http://yoursite.com/2020/08/29/hello-world/</id>
+    <published>2020-08-29T06:17:41.423Z</published>
+    <updated>2020-08-29T06:17:41.423Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2020/08/14/%E4%B8%8B%E8%BD%BDMicrosoft%20office2019%20for%20mac/"/>
+    <id>http://yoursite.com/2020/08/14/%E4%B8%8B%E8%BD%BDMicrosoft%20office2019%20for%20mac/</id>
+    <published>2020-08-14T07:30:54.517Z</published>
+    <updated>2020-08-14T07:30:54.517Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="下载Microsoft-office2019-for-mac"><a href="#下载Microsoft-office2019-for-mac" class="headerlink" title="下载Microsoft office2019 for mac"></a>下载Microsoft office2019 for mac</h1><p>安装包Microsoft Office 2019 for Mac v16.36.macstore.info</p><p>双击安装 Microsoft_Office_16.36.pkg和VolumeLicense.pkg</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;下载Microsoft-office2019-for-mac&quot;&gt;&lt;a href=&quot;#下载Microsoft-office2019-for-mac&quot; class=&quot;headerlink&quot; title=&quot;下载Microsoft office2019 for mac&quot;&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2020/08/12/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8homebrew%E5%AE%89%E8%A3%85python3/"/>
+    <id>http://yoursite.com/2020/08/12/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8homebrew%E5%AE%89%E8%A3%85python3/</id>
+    <published>2020-08-12T14:40:00.685Z</published>
+    <updated>2020-08-12T14:40:00.685Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="如何使用homebrew安装python3"><a href="#如何使用homebrew安装python3" class="headerlink" title="如何使用homebrew安装python3"></a>如何使用homebrew安装python3</h1><p>用homebrew来安装最新版本的python</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> brew install python3</span></span><br></pre></td></tr></table></figure><p>然后经过一段时间的等待,安装成功则会出现</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">==&gt; python@3.8</span><br><span class="line">Python has been installed as</span><br></pre></td></tr></table></figure><p>可以使用如下代码进行检验是否安装成功以及安装版本</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> python3 --version</span></span><br><span class="line">Python 3.7.3</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;如何使用homebrew安装python3&quot;&gt;&lt;a href=&quot;#如何使用homebrew安装python3&quot; class=&quot;headerlink&quot; title=&quot;如何使用homebrew安装python3&quot;&gt;&lt;/a&gt;如何使用homebrew安装python3&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2020/08/09/pycharm%202019%20for%20Mac%20%E6%B0%B8%E4%B9%85%E7%A0%B4%E8%A7%A3%E7%89%88/"/>
+    <id>http://yoursite.com/2020/08/09/pycharm%202019%20for%20Mac%20%E6%B0%B8%E4%B9%85%E7%A0%B4%E8%A7%A3%E7%89%88/</id>
+    <published>2020-08-09T14:13:10.061Z</published>
+    <updated>2020-08-09T14:28:10.437Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="pycharm-2019-for-Mac-永久破解版"><a href="#pycharm-2019-for-Mac-永久破解版" class="headerlink" title="pycharm 2019 for Mac 永久破解版"></a>pycharm 2019 for Mac 永久破解版</h1><p>从官网上下载2019.3.1版本或其之前的版本。然后一路next并且进行30天试用</p><p>然后退出pycharm</p><p>将文件jetbrains-agent.jar加入到pycharm软件下的contents/bin目录下，然后打开终端将文件bin目录下的jetbrains-agent.jar文件拖入获得绝对路径然后复制。在bin文件下找到pycharm.vmoptions文件并用txt打开，在最后添加如下一行：</p><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-javaagent:/Applications/PyCharm.app/Contents/bin/jetbrains-agent.jar</span><br></pre></td></tr></table></figure><p>然后保存，重新打开软件，随便打开一个project，然后help-register在activation code中输入如下code：</p><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ENBMB4XDTE4MTEwMTEyMjk0NloXDTIwMTEwMjEyMjk0NlowaDELMAkGA1UEBhMCQ1oxDjAMBgNVBAgMBU51c2xlMQ8wDQYDVQQHDAZQcmFndWUxGTAXBgNVBAoMEEpldEJyYWlucyBzLnIuby4xHTAbBgNVBAMMFHByb2QzeS1mcm9tLTIwMTgxMTAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5ndaik1GD0nyTdqkZgURQZGW+RGxCdBITPXIwpjhhaD0SXGa4XSZBEBoiPdY6XV6pOfUJeyfi9dXsY4MmT0D+sKoST3rSw96xaf9FXPvOjn4prMTdj3Ji3CyQrGWeQU2nzYqFrp1QYNLAbaViHRKuJrYHI6GCvqCbJe0LQ8qqUiVMA9wG/PQwScpNmTF9Kp2Iej+Z5OUxF33zzm+vg/nYV31HLF7fJUAplI/1nM+ZG8K+AXWgYKChtknl3sW9PCQa3a3imPL9GVToUNxc0wcuTil8mqveWcSQCHYxsIaUajWLpFzoO2AhK4mfYBSStAqEjoXRTuj17mo8Q6M2SHOcwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl/GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQBonMu8oa3vmNAa4RQP8gPGlX3SQaA3WCRUAj6Zrlk8AesKV1YSkh5D2l+yUk6njysgzfr1bIR5xF8eup5xXc4/G7NtVYRSMvrd6rfQcHOyK5UFJLm+8utmyMIDrZOzLQuTsT8NxFpbCVCfV5wNRu4rChrCuArYVGaKbmp9ymkw1PU6+HoO5i2wU3ikTmRv8IRjrlSStyNzXpnPTwt7bja19ousk56r40SmlmC04GdDHErr0ei2UbjUua5kw71Qn9g02tL9fERI2sSRjQrvPbn9INwRWl5+k05mlKekbtbu2ev2woJFZK4WEXAd/GaAdeZZdumv8T2idDFL7cAirJwcrbfpawPeXr52oKTPnXfi0l5+g9Gnt/wfiXCrPElX6ycTR6iL3GC2VR4jTz6YatT4Ntz59/THOT7NJQhr6AyLkhhJCdkzE2cob/KouVp4ivV7Q3Fc6HX7eepHAAF/DpxwgOrg9smX6coXLgfp0b1RU2u/tUNID04rpNxTMueTtrT8WSskqvaJd3RH8r7cnRj6Y2hltkja82HlpDURDxDTRvv+krbwMr26SB/40BjpMUrDRCeKuiBahC0DCoU/4+ze1l94wVUhdkCfL0GpJrMSCDEK+XEurU18Hb7WT+ThXbkdl6VpFdHsRvqAnhR2g4b+Qzgidmuky5NUZVfEaZqV/g==</span><br></pre></td></tr></table></figure><p>然后点击activate，完成。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;pycharm-2019-for-Mac-永久破解版&quot;&gt;&lt;a href=&quot;#pycharm-2019-for-Mac-永久破解版&quot; class=&quot;headerlink&quot; title=&quot;pycharm 2019 for Mac 永久破解版&quot;&gt;&lt;/a&gt;pycharm </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2020/08/09/%E4%B8%8B%E8%BD%BD%E5%AE%98%E6%96%B9%E6%95%99%E8%82%B2%E8%BD%AF%E4%BB%B6(final%20cut%20x,logic%20pro%20x,motion,mainstage%203,compressor)/"/>
+    <id>http://yoursite.com/2020/08/09/%E4%B8%8B%E8%BD%BD%E5%AE%98%E6%96%B9%E6%95%99%E8%82%B2%E8%BD%AF%E4%BB%B6(final%20cut%20x,logic%20pro%20x,motion,mainstage%203,compressor)/</id>
+    <published>2020-08-09T12:41:56.377Z</published>
+    <updated>2020-08-09T12:41:56.377Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="下载官方教育软件-final-cut-x-logic-pro-x-motion-mainstage-3-compressor"><a href="#下载官方教育软件-final-cut-x-logic-pro-x-motion-mainstage-3-compressor" class="headerlink" title="下载官方教育软件(final cut x,logic pro x,motion,mainstage 3,compressor)"></a>下载官方教育软件(final cut x,logic pro x,motion,mainstage 3,compressor)</h1><p>安装方式:<br>进入appstore商店先退出自己的id账号 然后换成下面的账号<br>点击左下角 进入已购项目 切换一下购买人安装即可,切忌不要搜索直接下载.</p><p>fcpx三件套下载<br>账号：<a href="mailto:&#102;&#99;&#112;&#x78;&#x31;&#x30;&#x30;&#52;&#64;&#x69;&#99;&#x6c;&#x6f;&#117;&#100;&#x2e;&#x63;&#x6f;&#109;">&#102;&#99;&#112;&#x78;&#x31;&#x30;&#x30;&#52;&#64;&#x69;&#99;&#x6c;&#x6f;&#117;&#100;&#x2e;&#x63;&#x6f;&#109;</a><br>密码：Aa667788 (手动输入 注意大小写)</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;下载官方教育软件-final-cut-x-logic-pro-x-motion-mainstage-3-compressor&quot;&gt;&lt;a href=&quot;#下载官方教育软件-final-cut-x-logic-pro-x-motion-mainstage-3-compre</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2020/08/09/%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BD%BDchrome%E4%BB%A5%E5%8F%8A%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97/"/>
+    <id>http://yoursite.com/2020/08/09/%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BD%BDchrome%E4%BB%A5%E5%8F%8A%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97/</id>
+    <published>2020-08-09T11:35:12.099Z</published>
+    <updated>2020-08-09T12:34:30.091Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="mac下如何下载chrome"><a href="#mac下如何下载chrome" class="headerlink" title="mac下如何下载chrome"></a>mac下如何下载chrome</h1><p><a href="https://tools.shuax.com/chrome/#/">https://tools.shuax.com/chrome/#/</a></p><p>这个网站上可以下载到各个平台的Chrome</p><h1 id="如何加载谷歌商店"><a href="#如何加载谷歌商店" class="headerlink" title="如何加载谷歌商店"></a>如何加载谷歌商店</h1><p>下载helper插件</p><p>下载完成后，在chrome浏览器地址栏中输入chrome://extensions 按回车 记得开启 developer mode模式。</p><p>将文件夹helper拖入页面，启动该插件便可访问谷歌商店。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;mac下如何下载chrome&quot;&gt;&lt;a href=&quot;#mac下如何下载chrome&quot; class=&quot;headerlink&quot; title=&quot;mac下如何下载chrome&quot;&gt;&lt;/a&gt;mac下如何下载chrome&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://tools</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
